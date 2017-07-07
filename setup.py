@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 
 setup(
@@ -10,5 +10,7 @@ setup(
     author_email="gustavopantuza@gmail.com",
     install_requires=[
         "redis==2.10.5",
-    ]
+    ],
+    setup_requires=["pytest-runner"],
+    tests_require=["pytest"],
 )
