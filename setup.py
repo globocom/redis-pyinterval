@@ -8,6 +8,7 @@ setup(
                 "sets extension of Redis",
     author="Gustavo Pantuza",
     author_email="gustavopantuza@gmail.com",
+    url="https://github.com/globo.com/redis-pyinterval"
     install_requires=[
         "redis==2.10.5",
     ],
