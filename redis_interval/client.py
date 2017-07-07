@@ -21,7 +21,7 @@ class RedisInterval(StrictRedis):
         return self.execute_command("IADD", key, start, end, value)
 
     def iadd_callback(self, response, **options):
-        if response != 0:
+        if response != 1:
             raise Exception("Failed to insert Interval - IADD: %d" % response)
         return 'OK'
 
