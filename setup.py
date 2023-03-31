@@ -11,7 +11,7 @@ setup(
     url="https://github.com/globocom/redis-pyinterval",
     download_url="https://github.com/globocom/redis-pyinterval/archive/0.2.0.tar.gz",
     install_requires=[
-        "redis==2.10.5",
+        "redis==4.4.4",
     ],
     setup_requires=["pytest-runner"],
     tests_require=["pytest"],
